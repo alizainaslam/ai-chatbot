@@ -72,7 +72,7 @@ const occurredError = () => {
 
 const fetchApiResponse = async (userInput) => {
   try {
-    const apiUrl = await fetch("http://localhost:3000/", {
+    const apiUrl = await fetch("https://chatbot-be-piar.onrender.com", {
       method: "POST",
       headers: {
         "content-type": "application/json",
