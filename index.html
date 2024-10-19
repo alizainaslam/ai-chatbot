@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Innovista Ai Assistant</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <a
+        href="https://www.linkedin.com/in/alizainaslam/"
+        aria-label="linkedin-link"
+        ><img class="logo-img" src="./assets/linkedin.svg" alt="linkedin"
+      /></a>
+      <a href="https://github.com/alizainaslam" aria-label="github-link"
+        ><img class="logo-img" src="./assets/github.svg" alt="github"
+      /></a>
+    </header>
+
+    <main>
+      <h1>AI Assistant for <span class="logo">Innovista</span></h1>
+      <p class="description">
+        The AI Assistant for Innovista is here to give you quick info about our
+        coworking spaces. Need details on locations, events, courses, or
+        facilities? Just ask! It’s a simple way to get answers fast, anytime you
+        need them.
+      </p>
+      <!-- Chatbox -->
+      <div class="chatbox-container">
+        <div class="chatbox-header">
+          <img
+            src="./assets/close.svg"
+            alt="close button for chatbox-container"
+            class="close-chat"
+          />
+        </div>
+        <div class="chatbox-content">
+          <span class="user-query"
+            >Hello! I am the AI assistant from Innovista 🤖. How can I assist
+            you today?</span
+          >
+        </div>
+
+        <div class="user-prompt">
+          <textarea
+            name="user-prompt"
+            id="user-prompt"
+            placeholder="Ask your question"
+            rows="1"
+          ></textarea>
+          <button class="submit-prompt">
+            <img src="./assets/sendBtn.svg" alt="send prompt button" />
+          </button>
+        </div>
+      </div>
+      <!-- CTA -->
+      <button class="cta-btn" accesskey="enter">Ai Assistant</button>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
